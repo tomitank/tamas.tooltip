@@ -1,6 +1,6 @@
 {
   "name": "tamas.tooltip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tooltip for react application",
   "main": "tamas.tooltip.jsx",
   "scripts": {
