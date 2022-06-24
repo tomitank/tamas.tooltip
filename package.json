@@ -17,6 +17,12 @@
     "tamas.tooltip"
   ],
   "author": "Tamas Kuzmics",
+  "contributors": [
+    {
+      "name": "Tamas Kuzmics - tomitank",
+      "email": "tanky.hu@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tomitank/tamas.tooltip/issues"
