@@ -1,0 +1,30 @@
+{
+  "name": "tamas.tooltip",
+  "version": "1.0.0",
+  "description": "Tooltip for react application",
+  "main": "tamas.tooltip.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomitank/tamas.tooltip.git"
+  },
+  "keywords": [
+    "react",
+    "tamas",
+    "tooltip",
+    "tamas.tooltip"
+  ],
+  "author": "Tamas Kuzmics",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomitank/tamas.tooltip/issues"
+  },
+  "homepage": "https://github.com/tomitank/tamas.tooltip#readme",
+  "dependencies": {
+    "jquery": "^3.5",
+    "react": "^17.0",
+    "react-dom/server": "^17.0.11"
+  }
+}

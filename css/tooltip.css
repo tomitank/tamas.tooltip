@@ -1,0 +1,78 @@
+
+/* tooltip jQuery plugin for Audi UI by Tamas Kuzmics */
+
+#global-tooltip {
+    z-index: 10000;
+    opacity: 0;
+    width: auto;
+    height: auto;
+    display: none;
+    position: absolute;
+  }
+  #global-tooltip.top {
+    margin-top: -12px;
+    transform: translateY(16px);
+  }
+  #global-tooltip.bottom {
+    margin-top: 12px;
+    transform: translateY(-16px);
+  }
+  #global-tooltip.show {
+    opacity: 1;
+    transform: translateY(0px) !important;
+    transition: opacity 350ms ease-out, transform 350ms ease-out;
+  }
+
+  #global-tooltip .tooltip-content {
+    z-index: 1;
+    color: white;
+    padding: 15px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #404040;
+    max-width: calc(98vw);
+    border-radius: 5px;
+    text-shadow: 0px 1px 0px black;
+    box-shadow: 0px 0px 2px rgba(0,0,0,.2), 0px 0px 50px rgba(0,0,0,.3);
+  }
+
+  .tooltip-content .aui-list__item i {
+    margin-right: 5px;
+  }
+
+  .tooltip-content hr {
+    background-color: white;
+  }
+
+  #global-tooltip .tooltip-arrow {
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    display: block;
+    fill: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  #global-tooltip.top .tooltip-arrow {
+    top: 100%;
+  }
+  #global-tooltip.bottom .tooltip-arrow {
+    top: 0;
+  }
+
+  #global-tooltip .aui-list__item,
+  #global-tooltip, .abp-rich-text li {
+    margin-left: 0px;
+  }
+
+  #global-tooltip hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.3);
+  }
